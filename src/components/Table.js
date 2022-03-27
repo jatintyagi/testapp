@@ -2,7 +2,7 @@ import React from "react";
 import TableHeaders from './TableHeaders.json'
 import {isJson} from '../shared/utilities'
 const Table = ({ data }) => {
- const headers = JSON.parse(JSON.stringify(TableHeaders.headers[0]))
+ const headers = TableHeaders.headers[0]
  let array = Object.keys(headers)
   return (
     <div id='pokemon'>
