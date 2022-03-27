@@ -1,0 +1,13 @@
+{
+    "headers": [
+        {
+            "Name": "name",
+            "Number": "num",
+            "Type": "type",
+            "Height": "height",
+            "Weight": "weight",
+            "Weakness": "weaknesses",
+            "Next Evolution": "next_evolution"
+        }
+    ]
+}
